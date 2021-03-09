@@ -21,10 +21,10 @@ int main() {
     int month, year, day,
     a, m, y,
     leapDays, jdn, dowInt;
+    string dowStr, monthStr;
     
     // Day is 1 because we're only calculating the first of the month
     day = 1;
-    string dowStr, monthStr;
     
     //Get user input
     getInput(month, year, monthStr);
